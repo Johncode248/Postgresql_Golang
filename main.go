@@ -103,6 +103,7 @@ func getProduct(w http.ResponseWriter, r *http.Request) {
 	// Returning Product
 	json.NewEncoder(w).Encode(product)
 
+	//s
 }
 func updateProduct(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
